@@ -1,223 +1,175 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAIRYO - Smart Garment Manufacturing</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="manifest" href="manifest.json">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Big Picture by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+		<!-- Header -->
+			<header id="header">
+				<h1>Kairyo</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">What We Do</a></li>
+						<li><a href="#two">Who We Are</a></li>
+						<li><a href="#work">Services</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
-        .hero-section {
-            height: 100vh;
-            background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), 
-                        url('images/Smart\ Manufacturing.png');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            position: relative;
-        }
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<div class="logo">
+						<img src="images/Kairyo_Logo(cropped).png" alt="KAIRYO Logo" style="max-width: 400px; height: auto;" />
+					</div>
+					<!-- <header> -->
+					<!-- 	<h2>KAIRYO</h2> -->
+					<!-- </header> -->
+					<p>Smart <strong>Garment Manufacturing</strong> for the fast fashion industry</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
 
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(270deg, #043F8D 0%, #1a5bb8 50%, #2d6fd4 100%);
-            opacity: 0.3;
-            z-index: 1;
-        }
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What We Do</h2>
+					</header>
+				<p>Smart manufacturer of apparel focussed on <strong>high reliability and fast turn around</strong></p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
 
-        .content {
-            position: relative;
-            z-index: 2;
-            max-width: 800px;
-            padding: 0 20px;
-            animation: fadeInUp 1.5s ease-out;
-        }
+		<!-- Two -->
+			<section id="two" class="main style4 dark fullscreen">
+			<div class="left">
+				<div class="content box style2">
+					<div class="logo">
+						<img src="images/Sujoy.jpeg" alt="Sujoy Dutta" style="max-width: 200px; height: auto;" />
+					</div>
+					<header>
+						<h2>Sujoy Dutta, CEO</h2>
+					</header>
+					<p>Seasoned Marketting Professional and Innovation Enthusiast</p>
+				</div>
+			</div>
+			<div class="right">
+				<div class="content box style2">
+					<div class="logo">
+						<img src="images/DebDeepSett.jpeg" alt="Deb Deep Sett" style="max-width: 196px; height: auto;" />
+					</div>
+					<header>
+						<h2>Deb Deep Sett, CTO</h2>
+					</header>
+					<p>Techie with a dream of man-machine harmony</p>
+				</div>
+			</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Services</h2>
+						<p>Round Neck T-Shirts, buttonless Polos, Screen Printing</p>
+					</header>
 
-        .logo {
-            width: 300px;
-            height: 300px;
-            margin: 0 auto 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: transform 0.3s ease;
-            animation: pulse 10s infinite;
-        }
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/stitching.jpg" class="image fit"><img src="images/stitching.jpg" title="Stitching" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/screen_printing.jpg" class="image fit"><img src="images/screen_printing.jpg" title="Screen Printing" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/cutting.jpg" class="image fit"><img src="images/cutting.jpg" title="Lay Cutting" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/round-neck-13.png" class="image fit"><img src="images/round-neck-13.png" title="Round Neck Tee" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/factory_workers.webp" class="image fit"><img src="images/factory_workers.webp" title="Stitching Line" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/Screen-Printing-2.jpg" class="image fit"><img src="images/Screen-Printing-2.jpg" title="Overlock Stitches" alt="" /></a>
+							</article>
+							<!-- <article class="from-right"> -->
+							<!-- 	<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a> -->
+							<!-- </article> -->
+						</div>
 
-        .logo img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            filter: drop-shadow(0 10px 20px rgba(4, 63, 141, 0.3));
-        }
+				</div>
+			</section>
 
-        @keyframes pulse {
-            0%, 100% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.05);
-            }
-        }
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>We are always here to answer your queries. Just drop a message below or reach us on<br/>
+						+91 96771 68881 (or) deb@kairyo.in</p>
+					</header>
+					<div class="box">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
 
-        .logo:hover {
-            transform: scale(1.1);
-        }
+		<!-- Footer -->
+			<footer id="footer">
 
-        <!-- .company-name { -->
-        <!--     font-size: 4rem; -->
-        <!--     font-weight: 700; -->
-        <!--     margin-bottom: 20px; -->
-        <!--     color: #043F8D; -->
-        <!--     <!-- text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); --> -->
-        <!--     letter-spacing: 4px; -->
-        <!--     font-family: Arial, sans-serif; -->
-        <!-- } -->
+				<!-- Icons -->
+					<ul class="icons">
+						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+						<li><a href="https://www.linkedin.com/company/kairyo/about/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li> -->
+					</ul>
 
-        .tagline {
-            font-size: 1.6rem;
-            font-weight: 300;
-            margin-bottom: 40px;
-            color: rgba(255, 255, 255, 0.95);
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; FOSS</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
 
-        .coming-soon {
-            display: inline-block;
-            padding: 15px 40px;
-            background: linear-gradient(135deg, #043F8D, #1a5bb8);
-            color: white;
-            border-radius: 50px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            box-shadow: 0 10px 30px rgba(4, 63, 141, 0.4);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            cursor: default;
-        }
+			</footer>
 
-        .floating-elements {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 1;
-        }
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-        .floating-circle {
-            position: absolute;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .floating-circle:nth-child(1) {
-            width: 80px;
-            height: 80px;
-            top: 20%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-
-        .floating-circle:nth-child(2) {
-            width: 120px;
-            height: 120px;
-            top: 60%;
-            right: 15%;
-            animation-delay: 2s;
-        }
-
-        .floating-circle:nth-child(3) {
-            width: 60px;
-            height: 60px;
-            bottom: 20%;
-            left: 20%;
-            animation-delay: 4s;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0px) rotate(0deg);
-            }
-            33% {
-                transform: translateY(-20px) rotate(120deg);
-            }
-            66% {
-                transform: translateY(10px) rotate(240deg);
-            }
-        }
-
-            @media (max-width: 768px) {
-            .company-name {
-                font-size: 2.5rem;
-            }
-            
-            .tagline {
-                font-size: 1.2rem;
-                padding: 0 20px;
-            }
-            
-            .logo {
-                width: 150px;
-                height: 150px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <section class="hero-section">
-        <div class="floating-elements">
-            <div class="floating-circle"></div>
-            <div class="floating-circle"></div>
-            <div class="floating-circle"></div>
-        </div>
-        
-        <div class="content">
-            <div class="logo">
-                <img src="images/Kairyo_Logo(cropped).png" alt="KAIRYO Logo">
-            </div>
-            <!-- <h1 class="company-name">KAIRYO</h1> -->
-            <p class="tagline">Smart Garment Manufacturing for the fast fashion industry</p>
-            <div class="coming-soon">Coming Soon...</div>
-        </div>
-    </section>
-</body>
+	</body>
 </html>
